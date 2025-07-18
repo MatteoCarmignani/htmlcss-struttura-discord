@@ -57,21 +57,20 @@
 
 /*main*/
 
-
 .container-rosa {
-    width: 23%;
+    width: 22%;
     /*debug*/
     background-color: deeppink;
     height: 260px;
 }
 .container-arancio {
-    width: 13%;
+    width: 12%;
     /*debug*/
     background-color: orange;
     height: 260px;
 }
 .container-verde {
-    width: 36%;
+    width: 34%;
      /*debug*/
     background-color: green;
     height: 360px;
@@ -92,8 +91,50 @@
 }
 
 /*footer*/
-footer {
+
+.all-nera {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    background-color: black;
+}
+
+.container-rosso {
+    width: 10%;
     /*debug*/
-    height: 400px;
-    background-color: crimson;
+    background-color: red;
+    height: 260px;
+}
+
+.container-viola {
+    width: 6%;
+    /*debug*/
+    background-color: purple;
+    height: 260px;
+}
+
+.all-finale {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: black;
+
+}
+
+.container-ciano {
+    width: 36%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*debug*/
+    height: 40px;
+    background-color: aqua;
+
+}
+
+/*bottoni*/
+
+.bottone {
+    padding: 2px;
 }
