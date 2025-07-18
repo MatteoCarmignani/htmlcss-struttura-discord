@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+#top-bar {
+    background-color: aqua;
+     /*debug*/
+     height: 60px;
+
+}
+#top-bar-container {
+    margin: 0 auto;
+}
+
+#hero {
+    /*debug*/
+    background-color: blue;
+    padding: 60px;
+}
+#container-hero {
+    height: 100px;
+    width: 180px;
+    background-color: pink;
+    margin: 0 auto;
+
+}
+
+/*footer*/
+footer {
+    /*debug*/
+    height: 400px;
+    background-color: crimson;
+}
