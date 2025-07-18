@@ -4,13 +4,42 @@
     box-sizing: border-box;
 }
 #top-bar {
-    background-color: aqua;
      /*debug*/
-     height: 60px;
-
+    height: 60px;
+    background-color: aqua;
 }
+
 #top-bar-container {
-    margin: 0 auto;
+    height: 60px;
+    display: flex;
+    align-items: center; 
+    justify-content: center
+    /*debug*/
+}
+
+#logo {
+    width: 10%;
+    /*debug*/
+    background-color: yellow;  
+    border-color: black; 
+}
+
+#link {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    /*debug*/
+    background-color: yellow; 
+    border-color: black;  
+}
+
+#login {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    /*debug*/
+    background-color: yellow;
+    border-color: black; 
 }
 
 #hero {
@@ -19,10 +48,12 @@
     padding: 60px;
 }
 #container-hero {
-    height: 100px;
-    width: 180px;
-    background-color: pink;
     margin: 0 auto;
+    /*debug*/
+    height: 100px;
+    width: 180px; 
+    background-color: pink;
+    
 
 }
 
