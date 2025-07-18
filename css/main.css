@@ -52,9 +52,43 @@
     /*debug*/
     height: 100px;
     width: 180px; 
-    background-color: pink;
-    
+    background-color: pink;  
+}
 
+/*main*/
+
+
+.container-rosa {
+    width: 23%;
+    /*debug*/
+    background-color: deeppink;
+    height: 260px;
+}
+.container-arancio {
+    width: 13%;
+    /*debug*/
+    background-color: orange;
+    height: 260px;
+}
+.container-verde {
+    width: 36%;
+     /*debug*/
+    background-color: green;
+    height: 360px;
+
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.all-grigia {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    background-color: grey;
 }
 
 /*footer*/
