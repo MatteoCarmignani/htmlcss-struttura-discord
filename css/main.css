@@ -51,26 +51,26 @@
     margin: 0 auto;
     /*debug*/
     height: 100px;
-    width: 180px; 
+    width: 69%; 
     background-color: pink;  
 }
 
 /*main*/
 
 .container-rosa {
-    width: 22%;
+    width: 35%;
     /*debug*/
     background-color: deeppink;
     height: 260px;
 }
 .container-arancio {
-    width: 12%;
+    width: 27%;
     /*debug*/
     background-color: orange;
     height: 260px;
 }
 .container-verde {
-    width: 34%;
+    width: 62%;
      /*debug*/
     background-color: green;
     height: 360px;
@@ -101,14 +101,14 @@
 }
 
 .container-rosso {
-    width: 10%;
+    width: 15%;
     /*debug*/
     background-color: red;
     height: 260px;
 }
 
 .container-viola {
-    width: 6%;
+    width: 9%;
     /*debug*/
     background-color: purple;
     height: 260px;
@@ -123,7 +123,7 @@
 }
 
 .container-ciano {
-    width: 36%;
+    width: 51%;
     display: flex;
     align-items: center;
     justify-content: space-between;
